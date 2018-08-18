@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light fluid-top bg-transparent">
+    <a class="navbar-brand" href="#">   <img src="../../src/assets/big.png" alt="Pixelmonks">  </a>
+    <button class="navbar-toggler d-lg-none" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarsExampleDefault" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault" [collapse]="isCollapsed">
+      <ul class="navbar-nav font-weight-normal ">
+        <li class="nav-item  px-4">
+          <a class="nav-link" [routerLink]="'/home'">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link" [routerLink]="'/about'">ABOUT US</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link" [routerLink]="'/contactus'">CONTACT US</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link" href="#">PACKAGES</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+  
