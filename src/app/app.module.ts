@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FooterComponent } from './footer/footer.component';
-import { FacebookModule } from 'ngx-facebook';
+
 
 @NgModule({
   declarations: [
@@ -24,8 +24,7 @@ import { FacebookModule } from 'ngx-facebook';
     BrowserModule,
     AppRoutingModule,
     CollapseModule,
-    CarouselModule,
-    FacebookModule.forRoot()
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
