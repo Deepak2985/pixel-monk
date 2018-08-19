@@ -1,0 +1,11 @@
+footer{
+    bottom:0;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+i{
+    color:rgb(161, 161, 161);
+    margin:1px 5px;
+}
