@@ -7,3 +7,6 @@ body{
 .font-Open-Sans{
     font-family: 'Open Sans', sans-serif;
 }
+.img-thumbnail{
+    border: none;
+}

@@ -10,6 +10,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FooterComponent } from './footer/footer.component';
 import { OurWorkComponent } from './our-work/our-work.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -26,7 +28,8 @@ import { OurWorkComponent } from './our-work/our-work.component';
     BrowserModule,
     AppRoutingModule,
     CollapseModule,
-    CarouselModule
+    CarouselModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

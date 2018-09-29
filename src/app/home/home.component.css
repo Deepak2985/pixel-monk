@@ -1,15 +1,6 @@
-/*
-Removes white gap between slides - chagnge to base color of slide images
-*/
-.carousel {
-    background:#007aeb;
-  }
-  
-  /*
-  Forces image to be 100% width and not max width of 100%
-  */
+
   .img-fluid {
     width:100%;
   }
   
-  
+ 

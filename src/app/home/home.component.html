@@ -1,50 +1,20 @@
-
 <div class="container">
-<carousel>
-    <slide>
+    <carousel>
+        <slide *ngFor='let item of arrayOne(13) let i=index'>
+            <img src="./assets/test/{{i+1}}.jpg" alt="responsive image" class="d-block img-fluid">
+        </slide>
+    </carousel>
+
         
-            <picture>
-             <source srcset="./assets/5.jpeg" media="(min-width: 1400px)">
-             <source srcset="./assets/5_1.jpeg" media="(min-width: 900px)">
-              <source srcset="./assets/5_2.jpeg" media="(min-width: 577px)">
-             <img srcset="./assets/5_3.jpeg" alt="responsive image" class="d-block img-fluid">
-           </picture>
-
-       </slide>
-
-   <slide>
-      
-            <picture>
-             <source srcset="./assets/8.jpeg" media="(min-width: 1400px)" class="img-fluid">
-             <source srcset="./assets/8_1.jpeg" media="(min-width: 900px)">
-              <source srcset="./assets/8_2.jpeg" media="(min-width: 577px)">
-             <img srcset="./assets/8_3.jpeg" alt="responsive image" class="d-block img-fluid">
-           </picture>
-       </slide>
-   
-   <slide>
-      
-        <picture>
-                <source srcset="./assets/7.jpeg" media="(min-width: 1400px)">
-                <source srcset="./assets/7_1.jpeg" media="(min-width: 900px)">
-                 <source srcset="./assets/7_2.jpeg" media="(min-width: 577px)">
-                <img srcset="./assets/7_3.jpeg" alt="responsive image" class="d-block img-fluid">
-              </picture>
-   </slide>
-  
+    <div class=" content-justify text-justify  p-5 ">
+        <h4 class=" text-center mb-4">Pixel Monks is a wedding photography studio located in Haldwani, India</h4>
+        <p>We are a team of experienced and creative minds that work towards making your wedding an experience to be relished
+            forever Our vision is to improve the wedding experience of couples everywhere with innovative services and consistent
+            delivery in a professional way. Do contact us if you are looking for creating good memories for your wedding
+            and our photographers and film-makers would love to work with you.</p>
+    </div>
 
 
-</carousel>
 
-<div class=" content-justify font-Open-Sans p-5" >
-    <h4 class="text-center mb-4">Pixel Monks is a  wedding photography studio located in Haldwani, India</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas asperiores eos et odit porro, eligendi deleniti qui est necessitatibus vero, vel dignissimos quisquam laborum ipsa. Debitis ad labore facere a!
-        Sint amet delectus voluptatibus doloribus similique eius distinctio sed voluptates sit voluptatum exercitationem, fugiat nihil non rem facere quisquam blanditiis possimus perspiciatis tempora? Quis, amet. Nobis cumque quibusdam vitae neque.
-        Sunt maxime tempora voluptas soluta ipsum recusandae obcaecati natus iste, eligendi assumenda laboriosam unde est illo ducimus officiis voluptate, dolores error ex id dicta mollitia voluptatibus perspiciatis! Quas, doloremque quae.
-        Asperiores non quisquam in vero a autem nisi reprehenderit ut esse vitae iste distinctio molestiae temporibus, dolorum id officia consequatur voluptas rem eos labore doloribus blanditiis. Incidunt mollitia iure quia.
-        Dicta architecto quos unde, omnis modi consequatur earum corporis ea. Fugiat sequi explicabo quae magni soluta, incidunt excepturi beatae nulla asperiores debitis doloremque maxime modi reiciendis in nihil at laboriosam?</p>
+
 </div>
-</div>  
-
-
-

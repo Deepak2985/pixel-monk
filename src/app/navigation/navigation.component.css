@@ -1,3 +1,17 @@
 img{
-    width:200px;
+    width:160px;
+}
+
+.active{
+    color:rgb(26, 26, 27);
+    font-size: large;
+}
+
+.navbar-nav > li > a {
+    color:#555555;
+    -o-transition:.7s;
+    -ms-transition:.7s;
+    -moz-transition:.7s;
+    -webkit-transition:.7s;
+    transition:.7s;
 }
