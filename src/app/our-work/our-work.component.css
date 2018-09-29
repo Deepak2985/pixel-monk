@@ -2,7 +2,27 @@ h3{
     color: rgba(0,0,0,.6);
 }
 
-.img-thumbnail{
-    border: none;
+figcaption{
+    background: #fbfdfb;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: large;
 }
 
+.figure-img {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.rounded{
+    border-radius: .25rem .25rem 0 0 !important;
+}
+
+figure{
+    transition: transform .9s ease-in-out;
+}
+figure:hover{
+z-index:10;
+transform: scale(1.1);
+position: relative;
+}

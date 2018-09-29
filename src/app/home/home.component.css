@@ -3,4 +3,24 @@
     width:100%;
   }
   
- 
+  .active{
+    top:0;
+   opacity: 1;
+   animation-name: slide;
+   animation-duration: .6s;
+   position: relative;
+}
+
+@keyframes slide {
+   0%   {right:-100px;}
+   10%  {right:-90px;}
+   20%  {right:-80px;}
+   30%  {right:-70px;}
+   40%  {right:-60px;}
+   50% {right:-50px;}
+   60% {right:-40px;}
+   70% {right:-30px;}
+   80% {right:-20px;}
+   90% {right:-10px;}
+   100% {right:0px;}
+}

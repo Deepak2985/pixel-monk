@@ -11,6 +11,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { FooterComponent } from './footer/footer.component';
 import { OurWorkComponent } from './our-work/our-work.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PackagesComponent } from './packages/packages.component';
+import { GalleryComponent } from './our-work/gallery/gallery.component';
 
 
 
@@ -22,7 +24,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContactUsComponent,
     AboutUsComponent,
     FooterComponent,
-    OurWorkComponent
+    OurWorkComponent,
+    PackagesComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
