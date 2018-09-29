@@ -6,7 +6,7 @@
     </button>
   
     <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault" [class.show]="!isCollapsed">
-      <ul class="navbar-nav font-weight-normal " (click)="isCollapsed = isCollapsed?true:false">
+      <ul class="navbar-nav font-weight-normal " (click)="isCollapsed = !isCollapsed">
         <li class="nav-item  px-4 ">
           <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="'/home'">HOME <span class="sr-only">(current)</span></a>
         </li>
