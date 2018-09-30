@@ -10,10 +10,12 @@ import{ switchMap } from 'rxjs/operators';
 export class GalleryComponent implements OnInit {
 
   constructor(private acitvatedRoute:ActivatedRoute) { }
-name;
+name:string;
+heading:string;
   ngOnInit() {
    this.name= this.acitvatedRoute.snapshot.paramMap.get('id');
    console.log(this.name);
+   this.heading=this.name.split("_").join(" ");
   }
 
 }

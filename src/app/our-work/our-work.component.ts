@@ -13,28 +13,21 @@ export class OurWorkComponent implements OnInit {
 
   }
 weddingList=[
-  {url:"Anshika_weds_Suraj",
-  bride:"Anshika",
-  broom:"Suraj"
+  {url:"Nikhil_weds_Amisha",
+  bride:"Nikhil",
+  broom:"Amisha"
   },
-  {url:"Amitra_weds_Sankalp",
-  bride:"Amitra",
-  broom:"Sankalp"
+  {url:"Arpit_weds_Anjali",
+  bride:"Arpit",
+  broom:"Anjali"
   },
-  {url:"Sanjay_weds_Sachita",
+  {url:"Ajay_weds_Kiki",
+  bride:"Ajay",
+  broom:"Kiki"
+  },
+  {url:"Sanjay_weds_Nidhi",
   bride:"Sanjay",
-  broom:"Sachita"
-  },
-  {url:"Nitin_weds_Angela",
-  bride:"Nitin",
-  broom:"Angela"
-  },
-  {url:"Anirudh_weds_Priyanka",
-  bride:"Anirudh",
-  broom:"Priyanka"
-  },{url:"Tushar_weds_Nupur",
-  bride:"Tushar",
-  broom:"Nupur"
+  broom:"Nidhi"
   }
 ];
   arrayOne(n: number): any[] {

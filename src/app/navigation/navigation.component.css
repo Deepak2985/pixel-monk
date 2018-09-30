@@ -16,7 +16,7 @@ img{
     transition:.7s;
 }
 
-@media screen and (max-width:661px) {
+@media only screen and (max-width:661px) {
     .show{
         top:0;
        opacity: 1;
