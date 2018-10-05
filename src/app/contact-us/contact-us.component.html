@@ -1,23 +1,26 @@
 <div class="container mt-5">
 
   <form [formGroup]="contactForm" (ngSubmit)="onSubmit();">
-    <div>
+    <div class="row">
+      <div class="col-md-6">
           <img src="./assets/contactus.jpg" alt="" class="mx-auto d-block img-fluid"/>
+      </div>
+      
         
           
-      <div class="col-md-12 mt-5">
+      <div class="col-md-6 mt-5">
        
-            <div class="row">
-                <div class="form-group col-md-6">
+           
+                <div class="form-group">
                     
                     <input type="text" class="form-control" formControlName="name" id="name" placeholder="Your Name">
                   </div>
     
-                <div class="form-group col-md-6">
+                <div class="form-group">
 
                   <input type="number" class="form-control"  formControlName="phone" id="phone" placeholder="Phone Number">
                 </div>
-            </div>
+           
             
             <div class="form-group">
               

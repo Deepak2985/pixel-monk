@@ -7,20 +7,79 @@
     top:0;
    opacity: 1;
    animation-name: slide;
-   animation-duration: .6s;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
    position: relative;
 }
 
 @keyframes slide {
-   0%   {right:-100px;}
-   10%  {right:-90px;}
-   20%  {right:-80px;}
-   30%  {right:-70px;}
-   40%  {right:-60px;}
-   50% {right:-50px;}
-   60% {right:-40px;}
-   70% {right:-30px;}
-   80% {right:-20px;}
-   90% {right:-10px;}
+   0%   {right:-1000px;}
    100% {right:0px;}
+}
+
+
+
+.testimonials{
+  padding-bottom: 2.2em; 
+  text-align: center;
+  color: #666;
+}
+.testimonials h1{
+  color: #222;
+  font-size: 1.3em;
+}
+.testimonials .test-body{padding: 1em;}
+.testimonials .item{ 
+  text-align: center;
+  padding: 1em 0;
+  background-color: #fbfbfb;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 6px;
+}
+.testimonials img{
+  width: 4.8em;
+  height: 4.8em;
+  border-radius: 50%;
+}
+
+.testimonials .desig{
+  font-size: 0.7em;
+  padding: 0.5em 0;
+  color: #777;
+}
+.testimonials .share{
+  margin: 0 auto;
+  width: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testimonials p{
+  max-width: 27em;
+  margin: 0 auto;
+  font-size: 0.8em;
+}
+
+
+@media (min-width: 38.4rem){
+  .testimonials{
+      font-size: 1.2em;
+  }
+  .testimonials .test-body{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+  }
+  .testimonials p{
+      text-align: left;
+      padding: 1em;
+  }
 }

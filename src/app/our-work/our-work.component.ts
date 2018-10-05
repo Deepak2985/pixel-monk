@@ -13,19 +13,19 @@ export class OurWorkComponent implements OnInit {
 
   }
 weddingList=[
-  {url:"Nikhil_weds_Amisha",
+  {url:"Nikhil_&_Amisha",
   bride:"Nikhil",
   broom:"Amisha"
   },
-  {url:"Arpit_weds_Anjali",
+  {url:"Arpit_&_Anjali",
   bride:"Arpit",
   broom:"Anjali"
   },
-  {url:"Ajay_weds_Kiki",
+  {url:"Ajay_&_Kiki",
   bride:"Ajay",
   broom:"Kiki"
   },
-  {url:"Sanjay_weds_Nidhi",
+  {url:"Sanjay_&_Nidhi",
   bride:"Sanjay",
   broom:"Nidhi"
   }
