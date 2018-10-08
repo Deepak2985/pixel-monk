@@ -36,12 +36,12 @@
   margin: 1em;
   padding: 1em;
   border-radius: 6px;
-  border-top-left-radius: 80px 50px;
-  border-bottom-right-radius: 80px 50px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  border-top-left-radius: 80px 50px;
+  border-bottom-right-radius: 80px 50px;
   box-shadow: inset 0px 0px 10px #e2dcdc;
 }
 .testimonials img{
