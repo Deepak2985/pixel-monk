@@ -29,13 +29,20 @@
   font-size: 1.3em;
 }
 .testimonials .test-body{padding: 1em;}
-.testimonials .item{ 
+.testimonials .item{
   text-align: center;
   padding: 1em 0;
   background-color: #fbfbfb;
   margin: 1em;
   padding: 1em;
   border-radius: 6px;
+  border-top-left-radius: 80px 50px;
+  border-bottom-right-radius: 80px 50px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: inset 0px 0px 10px #e2dcdc;
 }
 .testimonials img{
   width: 4.8em;
